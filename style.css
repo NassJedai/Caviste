@@ -1,0 +1,8 @@
+li:hover {
+    background-color: lightgreen;
+    width: 230px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
