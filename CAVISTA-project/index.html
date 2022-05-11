@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Caviste</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/logo_caviste.png" alt="une coupe dorée">
+        </div>
+        
+        <h1 id="titre">Caviste</h1>
+        <nav>
+            <a href="about.html" id="about">About</a>
+            <a href="index.html" id="home">Home</a>   
+        </nav>
+    </header>
+    <main>
+        <div>
+            <form action="#" method="get" id="filtre">
+                <div class="navbar">
+                    <label for="searchBar">Recherche :</label>
+                    <input type="text" id="searchBar" placeholder="Make a research here..." value="">
+                    <button type="button" id="btnSearch">Search</button>
+                </div>
+                <select name="pays" id="pays">
+                    <option value="Tous les pays">Tous les pays</option>
+                    <option value="Argentine">Argentine</option>
+                    <option value="Espagne">Espagne</option>
+                    <option value="Etats-Unis">Etats-Unis</option>
+                    <option value="France">France</option>
+                    <option value="Italie">Italie</option>
+                </select>
+                <select name="années" id="annees">
+                    <option value="Toutes les années">Toutes les années</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                </select>
+                <button id="filter" type="submit">Filtrer</button>
+            </form>
+        </div>
+        <aside>
+            <ul id="liste">
+            </ul>
+        </aside>
+    </main>
+    <article class="descWines">
+        <img src="" alt="bottle of wine"> 
+        <h3 id="nameWine">Vin</h3>
+        <ul>
+            <li id="grape"></li>
+            <li id="country"></li>
+            <li id="region"></li>
+            <li id="year"></li>
+            <li id="capacité"></li>
+            <li id="color"></li>
+            <li id="price"></li>
+        </ul>
+        <form action="#" onclick="">
+            <input type="image" id="image" alt= "Ajouté une photo">
+            <input type="image" id="note" alt= "Ajouté une note">
+            <input type="image" id="like" alt= "Aime"> <span>0</span>
+       
+        <div>
+            <p class="menu"><a href="">Description</a></p>
+            <p class="menu"><a href="">Commentaire</a></p>
+            <p class="menu"><a href="">Note Personnel</a></p>
+        </div>
+        
+    </article>
+    <footer>&copy EPFC 2022</footer>
+</body>
+</html>
